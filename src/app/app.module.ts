@@ -24,7 +24,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { DeleteDialogComponent } from './dialogs/delete-dialog/delete-dialog.component';
 import { ErrorCatchingInterceptor } from 'src/api/error-catching-interceptor';
-import { NoFoundComponent } from './no-found/no-found.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,7 @@ import { NoFoundComponent } from './no-found/no-found.component';
     ItemComponent,
     ItemFormDialogComponent,
     DeleteDialogComponent,
-    NoFoundComponent
+    NotFoundComponent
   ],
   imports: [
     ReactiveFormsModule,
